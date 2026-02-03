@@ -1,0 +1,24 @@
+@tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--color-background);
+      color: var(--color-text);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-heading);
+    }
+
+    :root {
+      --color-primary: #2E9CCA;
+      --color-secondary: #0C2D48;
+      --color-accent: #E0FFFF;
+      --color-background: #000000;
+      --color-text: #FFFFFF;
+
+      --font-heading: "Exo 2", sans-serif;
+      --font-body: "Roboto", sans-serif;
+    }
